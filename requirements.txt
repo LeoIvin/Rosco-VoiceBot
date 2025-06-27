@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+openai-whisper
+pyttsx3
+spacy
+pydub
+sounddevice
+scipy 

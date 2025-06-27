@@ -1,0 +1,54 @@
+SCOPE OF WORK
+Project Title: Spanish-Speaking AI Voice Bot for In-Store Child Interaction (Local Setup)
+
+Objective:
+Develop a fully functional, Spanish-speaking AI voice bot named Ricoso designed to interact with children in a retail environment. The bot should be able to recognize spoken Spanish, respond using synthesized voice, log conversations, and run entirely on a local computer using a microphone and speaker setup. The final version must function offline and be safe, friendly, and responsive in real time.
+
+DELIVERABLES & FEATURES
+Voice Input & Recognition
+- Real-time voice capture using a microphone
+- Speech-to-text engine capable of Spanish recognition
+- Option to use offline-capable STT tools such as Vosk or Whisper
+- Bot actively listens and transcribes spoken input to text
+
+Bot Response System
+- Basic Spanish replies for introductory conversation
+- Conditional logic to continue the conversation (e.g., greeting, favorite things)
+- Child-appropriate tone and response flow
+- Short interactive back-and-forth conversations (3–4 turns)
+- Ability to understand and reply based on keywords or intent
+- Simple dialogue tree or rules-based logic (not open-ended AI)
+
+Voice Output (Text-to-Speech)
+- Convert bot text replies into speech using Spanish TTS engine
+- Use realistic, expressive deep male Spanish voice
+- Support for both online and offline TTS options
+- Low-latency voice generation to maintain natural timing
+
+Offline Capability
+- Entire system must run without internet in its final form
+- Use local models for speech recognition and synthesis
+- No third-party servers required during runtime
+
+Conversation Logging
+- Save both user speech input and bot replies to a .txt log file
+- Log format includes timestamp and speaker identity (e.g., “Child” / “Ricoso”)
+- Store logs in a local folder (e.g., Ricoso_Logs) in readable format
+
+Child-Safety Features
+- Basic language filtering to block inappropriate phrases or keywords
+- Response filtering for emotional safety and kindness
+- No personal data storage beyond local text logs
+
+Additional Features
+- Optional: Wake word detection (e.g., “Hola Ricoso”) to begin conversation
+- Idle timeout system (e.g., pauses or resets if inactive for X seconds)
+- Simple GUI (optional) or command-line interface with clear setup
+- Clean codebase with modular structure for future expansion
+
+FINAL DELIVERABLES
+- Python source code with all scripts separated or modularized
+- requirements.txt with full dependency list
+- Folder structure including logs, assets, and configuration
+- Setup guide or README for local installation and usage
+- Optional: Short demo video or screenshot to confirm functionality
